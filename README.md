@@ -27,9 +27,7 @@ origin	git@github.com:prosteSebastian/CTU-FIT-2-WINTER.git (push)
 upstream	git@github.com:prosteSebastian/CTU-FIT-2-WINTER.git (fetch)
 upstream	git@github.com:prosteSebastian/CTU-FIT-2-WINTER.git (push)
 ```
-* Pokud tam již něco budete mít, tak jen použijte místo  ```add``` ```remove```.
+* Pokud tam již něco budete mít, tak jen použijte místo  ```add``` dáte ```remove```.
 
 * Pro zjištění změn: `git fetch upstream`
-* A jejich následná aktualizace.
-```
-git merge upstream/main
+* A jejich následná aktualizace: ```git merge upstream/main```
