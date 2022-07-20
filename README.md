@@ -18,7 +18,7 @@ git remote -v
 origin	git@github.com:prosteSebastian/CTU-FIT-2-WINTER.git (fetch)
 origin	git@github.com:prosteSebastian/CTU-FIT-2-WINTER.git (push)
 ```
-*Tak použijte toto:
+* Tak použijte toto:
 ```
 git remote add upstream origin git@github.com:prosteSebastian/CTU-FIT-1_SUMMER.git
 git remote -v
@@ -27,7 +27,7 @@ origin	git@github.com:prosteSebastian/CTU-FIT-2-WINTER.git (push)
 upstream	git@github.com:prosteSebastian/CTU-FIT-2-WINTER.git (fetch)
 upstream	git@github.com:prosteSebastian/CTU-FIT-2-WINTER.git (push)
 ```
-*Pokud tam již něco budete mít, tak jen použijte místo  ```add``` ```remove```.
+* Pokud tam již něco budete mít, tak jen použijte místo  ```add``` ```remove```.
 
 * Pro zjištění změn: `git fetch upstream`
 * A jejich následná aktualizace.
