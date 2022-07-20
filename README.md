@@ -11,25 +11,3 @@ git add poznamky.pdf
 git commit -m "MA2: Notes from first 6 chapters."
 git push
 ```
-### Aktualizování forku
-* Těhle pár příkazů budete muset udělat jen jednou
-```
-git remote -v
-origin	git@github.com:prosteSebastian/CTU-FIT-2-WINTER.git (fetch)
-origin	git@github.com:prosteSebastian/CTU-FIT-2-WINTER.git (push)
-
-git remote add upstream git@github.com:prosteSebastian/CTU-FIT-2-WINTER.git
-git remote -v
-origin	git@github.com:prosteSebastian/CTU-FIT-2-WINTER.git (fetch)
-origin	git@github.com:prosteSebastian/CTU-FIT-2-WINTER.git (push)
-upstream	git@github.com:prosteSebastian/CTU-FIT-2-WINTER.git (fetch)
-upstream	git@github.com:prosteSebastian/CTU-FIT-2-WINTER.git (push)
-```
-* Pak už bude stačit jen těchto pár příkazů
-* Pro zjištění změn: `git fetch upstream`
-* A jeho následná aktualizace:
-```
-git switch main
-git merge upstream/main
-```
-git config pull.rebase false
